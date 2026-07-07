@@ -242,7 +242,10 @@ footer {
   .step-body img {
     border-right: none;
     border-bottom: 1px solid var(--border);
-    max-height: 460px;
+    max-height: none;
+    height: auto;
+    object-fit: contain;
+    background: #000;
   }
   .timeline {
     padding-left: 28px;
